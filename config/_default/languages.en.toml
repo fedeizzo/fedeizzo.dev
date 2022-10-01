@@ -1,0 +1,23 @@
+languageCode = "en"
+languageName = "English"
+displayName = "EN"
+isoCode = "en"
+weight = 1
+rtl = false
+
+title = "Federico Izzo"
+logo = ""
+description = "Personal website"
+
+dateFormat = "2 January 2006"
+
+[author]
+  name = "Federico Izzo"
+  image = "me.jpg"
+  headline = ""
+  bio = ""
+  links = [
+    { email = "mailto:federico.izzo99@gmail.com" },
+    { github = "https://github.com/fedeizzo" },
+    { linkedin = "https://linkedin.com/in/fedeizzo" },
+  ]

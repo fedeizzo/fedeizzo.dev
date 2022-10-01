@@ -1,0 +1,8 @@
+# EMACS
+*~
+.direnv
+
+# HUGO
+public
+resources
+.hugo_build.lock
