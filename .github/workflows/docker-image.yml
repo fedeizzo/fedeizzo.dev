@@ -21,6 +21,6 @@ jobs:
       run: |
         docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag website
+      run: docker build . --file Dockerfile --tag fedeizzo/website
     - name: Docker push
       run: docker push ${{secrets.DOCKER_USER}}/website
