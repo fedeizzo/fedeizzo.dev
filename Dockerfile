@@ -10,4 +10,4 @@ RUN hugo
 
 FROM nginx:stable-alpine
 
-COPY --from=sitegenerator /src/public /var/www/html/
+COPY --from=sitegenerator /src/public /usr/share/nginx/html
