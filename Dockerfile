@@ -8,6 +8,6 @@ WORKDIR /src
 
 RUN hugo
 
-FROM sebp/lighttpd
+FROM nginx-stable-alpine
 
-COPY --from=sitegenerator /src/public /var/www/localhost/htdocs
+COPY --from=sitegenerator /src/public /var/www/html/
