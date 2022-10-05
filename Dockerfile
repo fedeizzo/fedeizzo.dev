@@ -8,6 +8,6 @@ WORKDIR /src
 
 RUN hugo
 
-FROM nginx-stable-alpine
+FROM nginx:stable-alpine
 
 COPY --from=sitegenerator /src/public /var/www/html/
