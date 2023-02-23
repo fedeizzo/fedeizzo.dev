@@ -1,5 +1,5 @@
 ---
-title: "Welcome to Blowfish!"
-description: "This is a demo of adding content to the homepage."
+title: "Welcome to Federico Izzo's website!"
+description: "Personal website"
 ---
 GNU/Linux - Machine Learning - Mountain
