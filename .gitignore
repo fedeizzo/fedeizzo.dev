@@ -6,3 +6,6 @@
 public
 resources
 .hugo_build.lock
+
+# NIX
+result
