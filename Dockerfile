@@ -1,4 +1,4 @@
-FROM ubuntu:22.10 as sitegenerator
+FROM ubuntu:latest as sitegenerator
 
 RUN apt update
 RUN apt install -y golang-go hugo
